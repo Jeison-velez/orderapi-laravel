@@ -11,7 +11,7 @@ class Order extends Model
     protected $table = 'Order';
     protected $fillable = [
         'legalization_date',
-        'addres',
+        'address',
         'city',
         'observation_id',
         'causal_id'];
